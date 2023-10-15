@@ -44,7 +44,6 @@ final class ResultViewController: UIViewController {
         guard let resultAnimal = sortingAllAnimals.last?.key else { return }
         
         getResult(animal: resultAnimal)
-    
     }
     
     private func getResult(animal: Animal) {
